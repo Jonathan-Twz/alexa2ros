@@ -1,0 +1,5 @@
+1. https://dashboard.ngrok.com/auth generate an authtoken to cassie (only need once)
+
+2. install flask-ask at https://github.com/johnwheeler/flask-ask 
+
+3. pip install 'cryptography<2.2'

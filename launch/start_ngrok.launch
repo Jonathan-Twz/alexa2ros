@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- launch file to run ngrok, need to be launched separetely in case that ngork drops offline and needs to be rerun during working time -->
+
+<launch>
+	<node name="ngrok" pkg="alexa2ros" type="start_ngrok.sh" output="screen"/>
+	<node pkg="alexa2ros" name="alexa_listener" type="alexa_listener.py" output="screen" cwd="node"/>
+
+</launch>
